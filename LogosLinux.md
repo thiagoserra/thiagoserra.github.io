@@ -32,9 +32,11 @@ Existem dicas detalhadas no [appdb do wine](https://appdb.winehq.org/objectManag
 
 Aqui, após terminar de rodar o script já fui capaz de rodar o Logos sem qualquer dificuldade:
 
-![GitHub Logo](imagens/tela01.png)
+
+![Logos rodando - Tela 01](imagens/tela01.png)
 
 
-[AppImage](https://appimage.org/)
+![Logos rodando - Tela 02](imagens/tela02.png)
+
 
 
