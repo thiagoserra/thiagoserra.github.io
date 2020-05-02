@@ -6,7 +6,8 @@ Arqui você vai encontrar diversas dicas relacionadas ao uso do Linux.
 Vou guardando aqui tudo que venho usando e fazendo.
 
 ## Linux
-Um artigo antigo mas ainda útil é o meu [post install do Manjaro](manjaro.postinstall.md)
+- Um artigo antigo mas ainda útil é o meu [post install do Manjaro](manjaro.postinstall.md)
+- [Instalando o software bíblico Logos 8 no Linux](LogosLinux.md)
 
 
 ## Ciência de Dados
