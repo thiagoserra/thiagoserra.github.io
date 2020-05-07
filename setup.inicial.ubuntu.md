@@ -16,9 +16,9 @@
     sudo apt install mc htop ncdu neofetch
 
     sudo apt install speedtest-cli speedometer
-    sudo apt install p7zip-full
+    sudo apt install p7zip-full rar
     sudo apt install ntfs-3g exfat-fuse exfat-utils
-    sudo apt install rar fonts-liberation fonts-inconsolata ttf-mscorefonts-installer
+    sudo apt install fonts-liberation fonts-inconsolata ttf-mscorefonts-installer
     sudo apt install git vim ctags
     sudo apt install build-essential
 
