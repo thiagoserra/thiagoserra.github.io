@@ -31,6 +31,7 @@ O que não está aqui:
 
 ## Instalar os pacotes do Latex
 _Mudar isso para o docker??_
+
     sudo apt install texlive-extra-utils texlive-base texlive-lang-portuguese texlive-pictures texlive-fonts-extra texlive-fonts-recommended
 
 
@@ -41,13 +42,14 @@ _Mudar isso para o docker??_
 
 ## Docker
 Para instalar:
+
     sudo apt install docker.io docker-compose
 
 Depois:
-    sudo systemctl enable --now docker
 
-Depois:
+    sudo systemctl enable --now docker
     sudo usermod -aG docker thiago
 
 Depois só checar:
+
     docker --version
