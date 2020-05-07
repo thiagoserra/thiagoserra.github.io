@@ -41,13 +41,17 @@ _Mudar isso para o docker??_
 
 ## Docker
 Para instalar:
+
     sudo apt install docker.io docker-compose
 
 Depois:
+
     sudo systemctl enable --now docker
 
 Depois:
+    
     sudo usermod -aG docker thiago
 
 Depois só checar:
+    
     docker --version
