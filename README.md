@@ -8,6 +8,7 @@ Vou guardando aqui tudo que venho usando e fazendo.
 ## Linux
 - Um artigo antigo mas ainda útil é o meu [post install do Manjaro](manjaro.postinstall.md)
 - [Instalando o software bíblico Logos 8 no Linux](LogosLinux.md)
+- [Setup Básico ou Post-Install do meu Ubuntu 20.04](setup.inicial.ubuntu.md)
 
 
 ## Ciência de Dados
