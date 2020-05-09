@@ -27,7 +27,10 @@ O que não está aqui:
     sudo apt install build-essential apt-transport-https ca-certificates software-properties-common
 
     sudo apt install audacity gimp inkscape pdfshuffler
+    sudo snap install bing-wall
 
+    sudo apt install obs-studio obs-plugins
+    sudo snap install kdenlive
 
 ## Instalar os pacotes do Latex
 _Mudar isso para o docker??_
@@ -48,7 +51,7 @@ Para instalar:
 Depois:
 
     sudo systemctl enable --now docker
-    sudo usermod -aG docker thiago
+    sudo usermod -aG docker seu_usuario
 
 Depois só checar:
 
