@@ -56,3 +56,24 @@ Depois:
 Depois só checar:
 
     docker --version
+
+## Hardware
+O único hardware que precisa de atenção é meu teclado.
+Uso um Logitech G413 (layout americano).
+Os acentos funcionam normalmente como layout do teclado após a escolha do idioma português do brasil para todo o sistema, mas o cedilha nada...
+
+
+![Teclado - Seleção do idioma](imagens/teclado_1.png)
+
+
+![Teclado - Seleção do modelo](imagens/teclado_2.png)
+
+Para configurá-lo no Ubuntu, é preciso escolher o layout:
+
+
+E adicionar no arquivo /etc/environment a seguinte linha:
+
+    export GTK_IM_MODULE=cedilla
+
+Depois de um reboot funciona tranquilo o cedilha.
+
