@@ -1,20 +1,41 @@
 # Setup básico ou post-install do Ubuntu 20.04
-O que não está aqui:
+
+## Tópicos
+
+1. [O que não está aqui](#intro)
+2. [Primeiro, excluir](#ponto1)
+3. [Atualizar](#ponto2)
+4. [Instalar alguns softwares de uso corrente](#ponto3)
+5. [Instalar os pacotes do Latex](#ponto4)
+6. [Instalacão do youtube-dl](#ponto5)
+7. [Docker](#ponto6)
+8. [Hardware](#ponto7)
+9. [Dotfiles: projeto no github](#ponto8)
+
+
+
+## O que não está aqui <a name="intro"></a>
+Download e instalação manual dos softwares abaixo:
+
   - Browser: [Vivaldi](https://vivaldi.com/pt-br/)
   - [Insync](https://www.insynchq.com)
   - [Ulauncher](https://ulauncher.io)
 
-## Primeiro, excluir
+
+## Primeiro, excluir <a name="ponto1"></a>
+
     sudo apt purge thunderbird* rhythmbox firefox* hexchat
     sudo apt remove vim-tiny
 
 
-## Atualizar
+## Atualizar <a name="ponto2"></a>
+
     sudo apt update
     sudo apt upgrade
 
 
-## Instalar alguns softwares de uso corrente
+## Instalar alguns softwares de uso corrente <a name="ponto3"></a>
+
     sudo apt install ubuntu-restricted-extras
     sudo apt install gnome-sushi flameshot
     sudo apt install mc htop ncdu neofetch curl
@@ -32,18 +53,21 @@ O que não está aqui:
     sudo apt install obs-studio obs-plugins
     sudo snap install kdenlive
 
-## Instalar os pacotes do Latex
-_Mudar isso para o docker??_
+## Instalar os pacotes do Latex <a name="ponto4"></a>
+
+_Mudar isso para o docker?? (TODO)_
 
     sudo apt install texlive-extra-utils texlive-base texlive-lang-portuguese texlive-pictures texlive-fonts-extra texlive-fonts-recommended
 
 
-## Instalacão do youtube-dl
+## Instalacão do youtube-dl <a name="ponto5"></a>
+
     sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
     sudo chmod a+rx /usr/local/bin/youtube-dl
 
 
-## Docker
+## Docker <a name="ponto6"></a>
+
 Para instalar:
 
     sudo apt install docker.io docker-compose
@@ -57,7 +81,8 @@ Depois só checar:
 
     docker --version
 
-## Hardware
+## Hardware <a name="ponto7"></a>
+
 O único hardware que precisa de atenção é meu teclado.
 Uso um Logitech G413 (layout americano).
 Os acentos funcionam normalmente como layout do teclado após a escolha do idioma português do brasil para todo o sistema, mas o cedilha nada...
@@ -76,4 +101,10 @@ E adicionar no arquivo /etc/environment a seguinte linha:
     export GTK_IM_MODULE=cedilla
 
 Depois de um reboot funciona tranquilo o cedilha.
+
+## Dotfiles: projeto no github <a name="ponto8"></a>
+
+Inicialmente, retornar meus arquivos dot que estão aqui no [github](https://github.com/thiagoserra/dotfiles).
+
+Principalmente o .bashrc e o .vimrc :-)
 
