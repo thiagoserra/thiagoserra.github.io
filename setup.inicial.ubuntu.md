@@ -14,6 +14,9 @@
 
 
 
+![ubuntu2004](imagens/ubuntu_1.png)
+
+
 ## O que não está aqui <a name="intro"></a>
 Download e instalação manual dos softwares abaixo:
 
