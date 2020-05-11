@@ -1,6 +1,5 @@
 # Docker no Ubuntu 20.04
-
-Bom, meu objetivo é mostrar um pouco do meu uso de conteiners no Linux, especialmente no Ubuntu, para meu ambiente pessoal de desenvolvimento.
+Bom, meu objetivo é mostrar como eu faço o meu setup inicial de conteiners no Linux, especialmente no Ubuntu, para meu ambiente pessoal de desenvolvimento.
 
 Tive que reinstalar meu sistema outro dia após quase um ano usando Manjaro, e, logo em seguida alguns meses usando o Windows 10.
 
@@ -12,7 +11,7 @@ Para instalar:
 
     sudo apt install docker.io docker-compose
 
-Depois (lembrando que na segunda linha, substituia pelo seu usuario/login do sistema):
+Depois (lembrando que na segunda linha, substitua pelo seu usuario/login do sistema):
 
     sudo systemctl enable --now docker
     sudo usermod -aG docker seu_usuario
@@ -55,8 +54,8 @@ Server:
 ```
  
 
-## Criando meus conteiners
-Basicamente tenho uma estrutura de três conteiners:
+## Criando meus contêiner
+Basicamente tenho uma estrutura de três contêiner:
 1.  Para minhas bases mysql;
 2.  Para rodar o apache2 com php;
 3.  Ainda em teste... um conteiner do miktex para compilar arquivos Latex.
@@ -70,7 +69,7 @@ Os arquivos de configuração estão no meu [repositório dockerconf](https://gi
 
 ### As tarefas
 - Criar o arquivo DockerFile para o servidor web com php
-- Criar um build do conteiner na pasta onde está o arquivo Dockerfile:
+- Criar um build do contêiner na pasta onde está o arquivo Dockerfile:
 
 ```
     docker build -t web .
@@ -89,12 +88,12 @@ Os arquivos de configuração estão no meu [repositório dockerconf](https://gi
     |- docker-compose.yml
     |- my.cnf
 ```
-- Isso permite persistir os dados do servidor de banco e web numa pasta única, organizada, sem necessidade de subir o conteiner com dados, já que estamos num ambiente de testdesenvolvimento.
+- Isso permite persistir os dados do servidor de banco e web numa pasta única, organizada, sem necessidade de subir o contêiner com dados, já que estamos num ambiente de teste/desenvolvimento.
 - Subir a estrutura e testar!
 
 
 # Testes
-Rodar o `docker-compose-up` e ver o que acontece.... 
+Rodar o `docker-compose up` e ver o que acontece.... 
 
 Normalmente rodaria tudo bem...
 
@@ -106,7 +105,6 @@ A imagem latest do mysql-server-8.0 do docker hub exigiu algumas configurações
 
 ```
     docker exec -it mysql-server-80  bash -l
-
     mysql -u root -p
 ```
 
@@ -152,3 +150,6 @@ Depois:
 
 E ai só rodar o dry.
 
+Esse e outros artigos estão compartilhados no GitHub!
+
+Acesse: https://thiagoserra.github.io
