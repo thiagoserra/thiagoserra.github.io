@@ -1,4 +1,11 @@
-# Raspberry Pi como máquina de escrever
+# RaspberryPi como máquina de escrever
+
+![equipamento 01](imagens/pi_kit_00.png =350x)
+![equipamento 02](imagens/pi_kit_01.png =350x)
+
+![equipamento 03](imagens/pi_kit_02.png =350x)
+
+
 Este brevíssimo artigo mostra meu projeto com Raspberry Pi (3b), utilizando-o como
 uma máquina de escrever moderna :-)
 
@@ -71,7 +78,7 @@ Ele possui diversos plugins para melhorar a experiência e, um específico para 
 
 Abaixo os que deixo habilitado:
 
-![geany plugins](imagens/pi_ed_1.png)
+![geany plugins](imagens/pi_ed_1.png =350x)
 
 
 ## O Resultado
@@ -91,14 +98,17 @@ No meu caso, todos os meus trabalhos estão no github, o que torna ainda mais f�
 
 
 
-![geany tela inicial - digitando](imagens/pi_ed_2.png)
+![geany tela inicial - digitando](imagens/pi_ed_2.png =250x)
+![geany menu construir - gerar pdf e dvi](imagens/pi_ed_3.png =250x)
+![geany atalhos para comandos](imagens/pi_ed_4.png =250x)
+
+![geany definir comandos de compilação](imagens/pi_ed_5.png =250x)
 
 
 
-![geany menu construir - gerar pdf e dvi](imagens/pi_ed_3.png)
 
 
-![geany atalhos para comandos](imagens/pi_ed_4.png)
+Esse e outros artigos estão compartilhados no GitHub!
 
+Acesse: https://thiagoserra.github.io
 
-![geany definir comandos de compilação](imagens/pi_ed_5.png)
