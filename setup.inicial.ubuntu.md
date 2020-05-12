@@ -11,6 +11,7 @@
 7. [Docker](#ponto6)
 8. [Hardware](#ponto7)
 9. [Dotfiles: projeto no github](#ponto8)
+10.[Sincronizar o horário](#ponto9)
 
 
 
@@ -110,4 +111,12 @@ Depois de um reboot funciona tranquilo o cedilha.
 Inicialmente, retornar meus arquivos dot que estão aqui no [github](https://github.com/thiagoserra/dotfiles).
 
 Principalmente o .bashrc e o .vimrc :-)
+
+
+## Sincronizar o horário do micro <a name="ponto9"></a>
+Para isso existe um excelente tutorial do NTP.br que eu recomendo.
+
+https://ntp.br/guia-linux-avancado.php
+
+
 
