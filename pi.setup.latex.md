@@ -1,9 +1,9 @@
 # RaspberryPi como máquina de escrever
 
-![equipamento 01](imagens/pi_kit_00.png | width=350)
-![equipamento 02](imagens/pi_kit_01.png | width=350)
+![equipamento 01](imagens/pi_kit_00.png)
+![equipamento 02](imagens/pi_kit_01.png)
 
-![equipamento 03](imagens/pi_kit_02.png | width=350)
+![equipamento 03](imagens/pi_kit_02.png)
 
 
 Este brevíssimo artigo mostra meu projeto com Raspberry Pi (3b), utilizando-o como
@@ -78,7 +78,7 @@ Ele possui diversos plugins para melhorar a experiência e, um específico para 
 
 Abaixo os que deixo habilitado:
 
-![geany plugins](imagens/pi_ed_1.png | width=350)
+![geany plugins](imagens/pi_ed_1.png)
 
 
 ## O Resultado
@@ -98,11 +98,11 @@ No meu caso, todos os meus trabalhos estão no github, o que torna ainda mais f�
 
 
 
-![geany tela inicial - digitando](imagens/pi_ed_2.png | width=250)
-![geany menu construir - gerar pdf e dvi](imagens/pi_ed_3.png | width=250)
-![geany atalhos para comandos](imagens/pi_ed_4.png | width=250)
+![geany tela inicial - digitando](imagens/pi_ed_2.png)
+![geany menu construir - gerar pdf e dvi](imagens/pi_ed_3.png)
+![geany atalhos para comandos](imagens/pi_ed_4.png)
 
-![geany definir comandos de compilação](imagens/pi_ed_5.png | width=250)
+![geany definir comandos de compilação](imagens/pi_ed_5.png)
 
 
 
