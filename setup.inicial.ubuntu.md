@@ -11,7 +11,8 @@
 7. [Docker](#ponto6)
 8. [Hardware](#ponto7)
 9. [Dotfiles: projeto no github](#ponto8)
-10.[Sincronizar o horário](#ponto9)
+10. [Sincronizar o horário](#ponto9)
+11. [Latex](#ponto10)
 
 
 
@@ -119,4 +120,20 @@ Para isso existe um excelente tutorial do NTP.br que eu recomendo.
 https://ntp.br/guia-linux-avancado.php
 
 
+## Latex <a name="ponto10"></a>
+O que é o Latex?
 
+Bom... a melhor e mais concisa explicação está no site do projeto:
+
+> LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as free software.
+
+
+Para longos trabalhos escritos eu continuo usando Latex desde a faculdade... é viciante, e o resultado é simplesmente incomparável - qualquer processador de texto exigirá muito mais trabalho do que simplesmente escrever o texto...
+
+Para instalar o processador Latex no Ubuntu:
+
+
+    sudo apt install texlive-lang-portuguese texlive-base texlive-extra-utils texlive-publishers
+
+
+Só começar a gerar seu documentos que sua máquina estará pronto para compilá-los.
