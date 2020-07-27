@@ -6,13 +6,12 @@
 2. [Primeiro, excluir](#ponto1)
 3. [Atualizar](#ponto2)
 4. [Instalar alguns softwares de uso corrente](#ponto3)
-5. [Instalar os pacotes do Latex](#ponto4)
-6. [Instalacão do youtube-dl](#ponto5)
-7. [Docker](#ponto6)
-8. [Hardware](#ponto7)
-9. [Dotfiles: projeto no github](#ponto8)
-10. [Sincronizar o horário](#ponto9)
-11. [Latex](#ponto10)
+5. [Instalacão do youtube-dl](#ponto5)
+6. [Docker](#ponto6)
+7. [Hardware](#ponto7)
+8. [Dotfiles: projeto no github](#ponto8)
+9. [Sincronizar o horário](#ponto9)
+10. [Latex](#ponto10)
 
 
 
@@ -57,13 +56,6 @@ Download e instalação manual dos softwares abaixo:
 
     sudo apt install obs-studio obs-plugins
     sudo snap install kdenlive
-
-## Instalar os pacotes do Latex <a name="ponto4"></a>
-
-_Mudar isso para o docker?? (TODO)_
-
-    sudo apt install texlive-extra-utils texlive-base texlive-lang-portuguese texlive-pictures texlive-fonts-extra texlive-fonts-recommended
-
 
 ## Instalacão do youtube-dl <a name="ponto5"></a>
 
