@@ -2,7 +2,7 @@
 
 Bem vindo(a)!
 
-Arqui você vai encontrar diversas dicas relacionadas ao uso do Linux.
+Aqui você vai encontrar diversas dicas relacionadas ao uso do Linux.
 Vou guardando aqui tudo que venho usando e fazendo.
 
 ## Linux
@@ -11,6 +11,8 @@ Vou guardando aqui tudo que venho usando e fazendo.
 - [Setup Básico ou Post-Install do meu Ubuntu 20.04](setup.inicial.ubuntu.md)
 - [Docker no Ubuntu 20.04](docker.tutorial.md)
 - [RaspberryPi como máquina de escrever](pi.setup.latex.md)
+- [Manjaro: Setup em 2021](manjaro.postintall2.md)
+
 
 
 ## Ciência de Dados
